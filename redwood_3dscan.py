@@ -67,7 +67,7 @@ meshes = _load_json("meshes.json")
 # Dictionary with {"category_0": [id_0, id_1, ...]}.
 categories = _load_json("categories.json")
 
-_base_url = "https://s3.us-west-1.wasabisys.com/redwood-3dscan"
+_base_url = "https://redwood-3dscan.b-cdn.net"
 _pwd = os.path.dirname(os.path.abspath(__file__))
 
 
