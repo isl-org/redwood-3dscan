@@ -79,11 +79,6 @@ rws.download_all("00033")   # Downloads rgbd, mesh, and video together
 
 # Download by category "sofa"
 rws.download_category("sofa")
-
-# Download the entire dataset
-# WARNING: the dataset is ~4TB in size
-for scan_id in rws.rgbds:
-    rws.download_all(scan_id)
 ```
 
 You can use
